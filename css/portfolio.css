@@ -1,0 +1,38 @@
+.center {
+	margin: auto;
+	width: 60%;
+	text-align: center;
+}
+
+.hero {
+	padding-top: 20%;
+}
+
+body, a, a:hover, nav, a:focus {
+	background-color: rgb(42, 150, 176);
+	color: white;
+	font-family: Raleway, sans-serif;
+}
+
+nav li a {
+	margin-left: 50px;
+	float: left;
+}
+
+nav {
+	padding-top: 20px;	
+}
+
+#portfoliotop, #aboutme {
+	margin-top: 50px;
+}
+
+img {
+	margin-top: 40px;
+	width: 50%;
+	height: 50%;
+}
+
+.container {
+	margin-bottom: 10px;
+}

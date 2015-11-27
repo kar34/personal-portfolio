@@ -1,0 +1,13 @@
+<div class="container" id="portfoliotop">
+    <h1>Portfolio</h1>
+    <p class="subtitle">The projects below are projects I worked on while in INFO 343.</p>    
+</div>
+
+<div class="container" id="portfoliobottom">
+    <div ng-repeat="portfolio in portfolio">
+      <img src="{{portfolio.CoverPhoto}}"></img>
+      <h3>{{portfolio.Title}}</h3>
+      <p>{{portfolio.Summary}}</p>
+      <a href="{{portfolio.URL}}">View Project</a>
+    </div>
+</div>
